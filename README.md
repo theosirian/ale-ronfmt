@@ -52,7 +52,7 @@ The plugin offers two configuration variables that you can set on your `.vimrc`:
 
 To set a different path for `ronfmt` executable use:
 ```
-let g:ale_ron_ronfmt_options='-t 2 -w 120'
+let g:ale_ron_ronfmt_executable='ronfmt'
 ```
 
 To modify the flags passed to `ronfmt` use:
