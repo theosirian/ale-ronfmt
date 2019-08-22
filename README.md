@@ -50,18 +50,16 @@ Plug 'theosirian/ale-ronfmt'
 
 The plugin offers two configuration variables that you can set on your `.vimrc`:
 
-To set a different path for `ronfmt` executable use:
-```
+```vim
+" Set a different path for `ronfmt` executable
 let g:ale_ron_ronfmt_executable='ronfmt'
-```
 
-To modify the flags passed to `ronfmt` use:
-```
+" Modify the flags passed to `ronfmt`
 let g:ale_ron_ronfmt_options='-t 2 -w 120'
 ```
-__Refer to `ronfmt` documentation to see the available options.__
+*Refer to `ronfmt` documentation to see the available options.*
 
 If you prefer to whitelist your linters and fixers for ALE don't forget to add it to the list:
-```
+```vim
 let g:ale_fixers = { ..., 'ron': ['ronfmt'], ... }
 ```
