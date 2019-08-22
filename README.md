@@ -38,7 +38,7 @@ git clone --depth 1 https://github.com/theosirian/ale-ronfmt.git ~/.vim/bundle/a
 
 ### Vundle
 ```
-Plugin 'dense-analysis/ale'
+Plugin 'theosirian/ale-ronfmt'
 ```
 
 ### Vim-Plug
